@@ -1,5 +1,6 @@
 import requests
 from time import sleep
+print("AUTOMAÇÃO DE PESQUISAS NO GOOGLE")
 keyword = str(input("Digite sua palavra-chave: ")).strip().lower()
 alfabeto = {"letras": " abcdefghijklmnopqrstuvwxyz"}
 letras = [l for l in alfabeto['letras']]
